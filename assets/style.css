@@ -1,8 +1,12 @@
 header {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: white;
 }
 
-.container {
-  margin: 0 !important;
+.stats {
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 3;
 }
