@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -6,7 +10,16 @@ header {
 }
 
 .stats {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 450;
   line-height: 3;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  max-width: 50px;
 }
