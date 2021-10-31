@@ -9,6 +9,22 @@ header {
   color: white;
 }
 
+input {
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
 .stats {
   font-size: 18px;
   font-weight: 450;
@@ -22,4 +38,32 @@ header {
 img {
   width: 100%;
   max-width: 50px;
+}
+
+.low {
+  background-color: limegreen;
+}
+
+.medium {
+  background-color: yellow;
+}
+
+.high {
+  background-color: red;
+}
+
+.vio {
+  display: initial;
+  border-radius: 5px;
+  padding: 1px 10px;
+}
+
+.his {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 4px;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
 }
